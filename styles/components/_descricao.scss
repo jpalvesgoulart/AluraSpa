@@ -1,0 +1,19 @@
+@import '../abstract/variaveis';
+
+.descricao{
+    padding: 1rem;
+    text-align: center;
+    margin: 0.5rem;
+    h3{
+        color: $cor-primaria;
+        font-size: $tamanho-texto / 2.5;
+    }
+    h4{
+        color: $cor-secundaria;
+        font-size: $tamanho-texto/3;
+    }
+    p{
+        margin-top: 0.5rem;
+        color: $cor-primaria;
+    }
+}
